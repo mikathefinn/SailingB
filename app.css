@@ -75,15 +75,13 @@ h6 {
   isolation: isolate;
 }
 
-header {
- 
-}
+header {}
 
-.nav-links{
+.nav-links {
   height: 3.4em;
   background-color: #023e8a;
   opacity: 0.9;
-  
+
 }
 
 
@@ -103,12 +101,18 @@ li {
   text-decoration: none;
 }
 
-.nav{
+.nav {
+  height: 3.4em;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
+.nav-links a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #fbffbd;
+  text-shadow: 1px 1px 1px #fbffbd;
+}
 
 .bg-bit {
   height: 100vh;
@@ -182,6 +186,14 @@ h2 {
   background-color: rgba(245, 245, 220, 0.275);
 }
 
+.wrap {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
 #sign {
   font-size: 2em;
   font-weight: bold;
