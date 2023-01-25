@@ -76,28 +76,34 @@ h6 {
 }
 
 header {
+ 
+}
+
+.nav-links{
   height: 3.4em;
   background-color: #023e8a;
   opacity: 0.9;
-
+  
 }
+
+
+
 
 ul,
 li {
+
   display: inline;
 }
 
-.nav-links {
-  display: flex;
 
-
-}
 
 .nav-links a {
   color: antiquewhite;
+  font-family: 'Playfair Display SC', serif;
+  text-decoration: none;
 }
 
-main {}
+
 
 .bg-bit {
   height: 100vh;
@@ -120,7 +126,7 @@ h1 {
 
 .headerone {
   width: 30%;
-  height: 25%;
+  padding-top: 2em;
   text-shadow: 2px 2px 3px black;
   display: flex;
   justify-content: end;
@@ -150,7 +156,7 @@ h2 {
   width: 50%;
   height: auto;
   position: relative;
-  left: 4em;
+  left: 8em;
 }
 
 .newsletter {
@@ -172,16 +178,17 @@ h2 {
 }
 
 #sign {
-  font-size: 3em;
-font-weight: bold;
+  font-size: 2em;
+  font-weight: bold;
 }
+
 #news {
   color: #023d8ade;
 }
 
 .sub {
   font-family: "Playfair Display", serif;
-  font-size: 1.3em;
+  font-size: 1em;
   font-weight: bold;
 
 }
@@ -200,17 +207,18 @@ font-weight: bold;
 }
 
 #signupbtn {
-margin-left: 17em;
-margin-top: 0.5em;
-padding: 0.1em 2em;
-border: 1px solid #49bbeb;
-border-radius: 5px;
-background-color: #4dbded;
-transition: all 0.15s;
+  margin-left: 17em;
+  margin-top: 0.5em;
+  padding: 0.1em 2em;
+  border: 1px solid #1783b2;
+  border-radius: 5px;
+  background-color: #1783b2;
+  transition: all 0.15s;
 
 }
+
 #signupbtn:hover {
   box-shadow: 2px 2px 2px 1px rgba(1, 24, 108, 0.2);
-  background-color: #1783b2;
-  border: 1px solid #1783b2;
+  border: 1px solid #49bbeb;
+  background-color: #4dbded;
 }
